@@ -31,7 +31,7 @@ function campoMinato() {
             computerNumbers.push(rndNum);                   // pusha il num° rnd generato, nell'array del computer
         }
     }
-    console.log('Numeri rnd Computer: ' + computerNumbers); // stampa array con num° rnd del computer
+    console.log('Numeri rnd Computer: ' + computerNumbers);
     document.getElementById('elenco-numeri').innerHTML = computerNumbers;
 
 
