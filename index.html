@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Campo minato</title>
+    <title>Campo Minato</title>
 
     <!--codice css-->
 
@@ -19,11 +19,16 @@
             display: flex;
             background-color: darkgoldenrod;
             color: white;
-            font-size: 30px;
         }
 
         .container * {
             margin: auto;
+        }
+
+        h1, p {
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
         }
 
     </style>
@@ -33,13 +38,21 @@
 
     <div class="container">
         <div class="row">
-            <h1 id="title" class="hello">Campo minato</h1>
+            <h1 id="elenco-numeri">array computer</h1>
+            <div>
+                <p id="end-game">esito partita</p>
+            </div>
+            <div>
+                <p id="final-score">punteggio finale</p>
+            </div>
+            <div>
+                <p id="won-game"></p>
+            </div>
         </div>
     </div>
 
+    <!--codice javascript-->
 
-
-<script src="js/script.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
-</html
+</html>
